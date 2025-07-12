@@ -1,0 +1,86 @@
+/* Container */
+.profile-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #0f1a0f;
+  border-radius: 12px;
+  border: 1px solid #00ff5e33;
+  color: #c8facc;
+  box-shadow: 0 0 25px rgba(0, 255, 80, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main Title */
+.profile-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00ff5e;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 8px #00ff5e99;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #111a11;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #00ff5e55;
+  box-shadow: 0 0 12px rgba(0, 255, 80, 0.1);
+}
+
+.profile-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #aaffaa;
+}
+
+.profile-card p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  color: #d8f8d8;
+}
+
+/* Sections */
+.skills-section, .pending-section, .history-section {
+  margin-top: 1.5rem;
+}
+
+.skills-section h3,
+.pending-section h3,
+.history-section h3 {
+  font-size: 1.2rem;
+  color: #00ff5e;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 6px #00ff5e88;
+}
+
+ul {
+  padding-left: 1.2rem;
+  list-style-type: square;
+  color: #c8facc;
+}
+
+ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* Edit Button */
+.edit-btn {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ff5e;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.edit-btn:hover {
+  background-color: #1eff6c;
+  box-shadow: 0 0 12px #00ff5eaa;
+}
