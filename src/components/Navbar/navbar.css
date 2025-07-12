@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000; /* Deep black background */
+  color: #00FF00;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #000;
+  color: #00FF00;
+  padding: 16px 32px;
+  border-bottom: 2px solid #00FF00;
+  box-shadow: 0 4px 12px rgba(0, 255, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #00FF00;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+}
+
+.logo-icon svg {
+  height: 28px;
+  width: 28px;
+  fill: #00FF00;
+}
+
+
+.spacer {
+  flex: 1;
+}
+
+
+.navbar-auth {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+  letter-spacing: 0.5px;
+}
+
+/* Login button */
+.btn-login {
+  background-color: transparent;
+  color: #00FF00;
+  border: 2px solid #00FF00;
+}
+
+.btn-login:hover {
+  background-color: #00ff0055;
+  box-shadow: 0 0 10px #00FF00;
+  color: #000;
+}
+
+
+.btn-signup {
+  background-color: #00FF00;
+  color: #000;
+  border: 2px solid #00FF00;
+}
+
+.btn-signup:hover {
+  background-color: #00cc00;
+  box-shadow: 0 0 12px #00FF00;
+}
+
+
+.navbar:hover {
+  box-shadow: 0 0 15px #00ff0055;
+}
