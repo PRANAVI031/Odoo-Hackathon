@@ -31,8 +31,7 @@ const LandingPage: React.FC = () => {
       <div className="top-bar">
         <input type="text" placeholder="Search skills or users..." className="search-bar" />
         <span className="accessibility-icon" role="img" aria-label="accessibility"></span>
-         <button className="search-button">Search</button>
-
+        <button className="search-button">Search</button>
       </div>
 
       <section className="hero-section">
@@ -54,11 +53,20 @@ const LandingPage: React.FC = () => {
               Connect with skilled individuals to exchange knowledge, learn new abilities, 
               and build meaningful relationships in our thriving community.
             </p>
+
             <div className="hero-buttons">
               <button className="btn btn-outline" onClick={() => window.open('/profile', '_blank')}>
                 View My Profile
               </button>
-              <button className="btn btn-outline">Explore Skills</button>
+              <button className="btn btn-outline">
+                Explore Skills
+              </button>
+              <button
+                className="btn btn-outline"
+                onClick={() => window.open('http://localhost:5000/chatbot', '_blank')}
+              >
+                💬 ChatBot
+              </button>
             </div>
 
             <section className="connect-section">
@@ -175,11 +183,13 @@ const LandingPage: React.FC = () => {
           </div>
         </div>
       </section>
-<div className="pagination">
-            <button className="page-btn">Previous</button>
-            <span className="page-number">1</span>
-            <button className="page-btn">Next</button>
-          </div>
+
+      <div className="pagination">
+        <button className="page-btn">Previous</button>
+        <span className="page-number">1</span>
+        <button className="page-btn">Next</button>
+      </div>
+
       <footer className="footer">
         <div className="container">
           <div className="footer-content">
@@ -218,9 +228,6 @@ const LandingPage: React.FC = () => {
           <div className="footer-bottom">
             <p>&copy; 2025 SkillSwap. All rights reserved.</p>
           </div>
-
-        
-          
         </div>
       </footer>
     </div>
